@@ -9,7 +9,7 @@ import pickle
 import numpy as np
 
 # Load the trained model, scaler, and encoder
-model = pickle.load(open('Iris_app.pkl', 'rb'))
+model = pickle.load(open('iris_app.pkl', 'rb'))
 scaler = pickle.load(open('scaler.pkl', 'rb'))
 encoder = pickle.load(open('encoder.pkl', 'rb'))
 
